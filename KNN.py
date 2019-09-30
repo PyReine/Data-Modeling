@@ -1,4 +1,5 @@
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn import metrics
 #try k from 1 to 11 to see which K is most accurate
 ks=11
 a=np.zeros(ks-1)
