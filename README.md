@@ -1,2 +1,2 @@
-# Non-Linear-Regression
-Some interesting non linear regression models
+# Some machine learning model
+- non linear regression models
