@@ -1,9 +1,6 @@
-# Initialize the plot with the specified dimensions.
-
+#Specify the size of the figure
 fig=plt.figure(figsize=(6,6))
-# Colors uses a color map, which will produce an array of colors based on
-# the number of labels there are. We use set(k_means_labels) to get the
-# unique labels.
+# Colors 
 colors = plt.cm.Spectral(np.linspace(0, 1, len(set(k_means_labels))))
 # Create a plot
 ax = fig.add_subplot(1, 1, 1)
